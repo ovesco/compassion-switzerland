@@ -3,6 +3,7 @@
         <!-- Mail templates -->
     <record id="mail_wrpr_welcome" model="mail.template">
         <field name="name">Write&amp;Pray Onboarding - Welcome</field>
+        <field name="subject">Write&amp;Pray Onboarding - Welcome</field>
         <field name="model_id" ref="partner_communication.model_partner_communication_job"/>
         <field name="email_from">"${object.user_id.company_id.with_context(lang=object.partner_id.lang).address_name}" &lt;compassion@compassion.ch&gt;</field>
         <field name="reply_to">info@compassion.ch</field>
@@ -45,6 +46,7 @@
     </record>
     <record id="mail_wrpr_child_info" model="mail.template">
         <field name="name">Write&amp;Pray Onboarding - Child information</field>
+        <field name="subject">Write&amp;Pray Onboarding - Child information</field>
         <field name="model_id" ref="partner_communication.model_partner_communication_job"/>
         <field name="email_from">"${object.user_id.company_id.with_context(lang=object.partner_id.lang).address_name}" &lt;compassion@compassion.ch&gt;</field>
         <field name="reply_to">info@compassion.ch</field>
@@ -102,6 +104,7 @@ Fragen? <a href="${chat_url}">${chat_url}</a>
     </record>
     <record id="mail_wrpr_letter_info" model="mail.template">
         <field name="name">Write&amp;Pray Onboarding - Letter writing information</field>
+        <field name="subject">Write&amp;Pray Onboarding - Letter writing information</field>
         <field name="model_id" ref="partner_communication.model_partner_communication_job"/>
         <field name="email_from">"${object.user_id.company_id.with_context(lang=object.partner_id.lang).address_name}" &lt;compassion@compassion.ch&gt;</field>
         <field name="reply_to">info@compassion.ch</field>
@@ -141,6 +144,7 @@ Fragen? <a href="${chat_url}">${chat_url}</a>
     </record>
     <record id="mail_wrpr_poverty" model="mail.template">
         <field name="name">Write&amp;Pray Onboarding - Poverty</field>
+        <field name="subject">Write&amp;Pray Onboarding - Poverty</field>
         <field name="model_id" ref="partner_communication.model_partner_communication_job"/>
         <field name="email_from">"${object.user_id.company_id.with_context(lang=object.partner_id.lang).address_name}" &lt;compassion@compassion.ch&gt;</field>
         <field name="reply_to">info@compassion.ch</field>
@@ -193,6 +197,7 @@ Fragen? <a href="${chat_url}">${chat_url}</a>
     </record>
     <record id="mail_wrpr_child_protection" model="mail.template">
         <field name="name">Write&amp;Pray Onboarding - Child Protection</field>
+        <field name="subject">Write&amp;Pray Onboarding - Child Protection</field>
         <field name="model_id" ref="partner_communication.model_partner_communication_job"/>
         <field name="email_from">"${object.user_id.company_id.with_context(lang=object.partner_id.lang).address_name}" &lt;compassion@compassion.ch&gt;</field>
         <field name="reply_to">info@compassion.ch</field>
@@ -228,6 +233,7 @@ Fragen? <a href="${chat_url}">${chat_url}</a>
     </record>
     <record id="mail_wrpr_segmentation" model="mail.template">
         <field name="name">Write&amp;Pray Onboarding - Segmentation</field>
+        <field name="subject">Write&amp;Pray Onboarding - Segmentation</field>
         <field name="model_id" ref="partner_communication.model_partner_communication_job"/>
         <field name="email_from">"${object.user_id.company_id.with_context(lang=object.partner_id.lang).address_name}" &lt;compassion@compassion.ch&gt;</field>
         <field name="reply_to">info@compassion.ch</field>
@@ -266,6 +272,7 @@ Fragen? <a href="${chat_url}">${chat_url}</a>
     </record>
     <record id="mail_wrpr_volunteering" model="mail.template">
         <field name="name">Write&amp;Pray Onboarding - Volunteering</field>
+        <field name="subject">Write&amp;Pray Onboarding - Volunteering</field>
         <field name="model_id" ref="partner_communication.model_partner_communication_job"/>
         <field name="email_from">"${object.user_id.company_id.with_context(lang=object.partner_id.lang).address_name}" &lt;compassion@compassion.ch&gt;</field>
         <field name="reply_to">info@compassion.ch</field>
@@ -302,6 +309,7 @@ Fragen? <a href="${chat_url}">${chat_url}</a>
     </record>
     <record id="mail_wrpr_feedback" model="mail.template">
         <field name="name">Write&amp;Pray Onboarding - Feedback</field>
+        <field name="subject">Write&amp;Pray Onboarding - Feedback</field>
         <field name="model_id" ref="partner_communication.model_partner_communication_job"/>
         <field name="email_from">"${object.user_id.company_id.with_context(lang=object.partner_id.lang).address_name}" &lt;compassion@compassion.ch&gt;</field>
         <field name="reply_to">info@compassion.ch</field>
